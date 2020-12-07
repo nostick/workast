@@ -179,7 +179,7 @@ DELETE `{{host}}/article/:articleId` -> Delete article
 GET `{{host}}/article/by-tags/:tagString` -> List of articles filtered by tagString, that string
 has receives all tags separeted by comma, example: `tag1,tag2,tag3...`
 
-In order to see the details of each endpoint please go to [Examples](https://github.com/nostick/workast/src/examples.md)
+In order to see the details of each endpoint please go to [Examples](https://github.com/nostick/workast/blob/master/src/examples.md)
 
 <!-- Troubleshooting -->
 ## Troubleshooting
