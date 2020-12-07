@@ -155,7 +155,7 @@ available on the app.
 
 In order to see what others endpoints are available on the app read Endpoints on this Readme
 
-I'll provide another readme with a `cURL` frm all operations
+I'll provide another readme with a `cURL` for all operations on that section
 
 <!-- Endpoints -->
 ## Endpoints
