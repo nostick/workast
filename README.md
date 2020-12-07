@@ -97,6 +97,9 @@ If you got those outputs then you are good to go
    ```
 Keep in mind that `<secret_key>` can be whatever string you want, it will work as a SECRET_KEY for generating the JWT token.
 
+My app is agnostic to the .env vars because this should be loaded by a secret manager
+like `Vault` or `AWS SM`
+
 The `<slack_token>` should be provided by you, in order to make it work with your own slack workspace, 
 if you want i can add you to mine and use my token, so you'll see it working on my workspace
 
