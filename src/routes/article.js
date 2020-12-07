@@ -18,7 +18,7 @@ export default (router) => {
 
         })
         .post(validateToken, async function (req, res) {
-            //userId would be obtained from JWT
+            //userId will be obtained from JWT
             const { title, text, tags } = req.body;
 
             if(!title || !text || !tags) return res.status(400).send({error:'You need to add title, text and tags as required'});
@@ -32,7 +32,6 @@ export default (router) => {
                 await slack.sendMessage(user.name, title, text);
                 return res.status(200).send(response);
             }catch(e){
-                console.log(e);
                 return res.status(500).send({error:e.message});
             }
         });
