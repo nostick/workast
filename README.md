@@ -130,7 +130,6 @@ The app runs by default on port `8001` and uses the `localhost` so you can eithe
 1.) Get a new token
 ```sh
 curl --location --request POST '127.0.0.1:8001/user' \
---header 'x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQ2VzYXIiLCJsYXN0bmFtZSI6IlN1bGJhcmFuIiwiaWF0IjoxNjA3MzExODI2LCJleHAiOjE2MDczMTU0MjZ9.rBuJgeAfnqkwqYfJF8rzICjMrkjwzBIZa8Ch1UQYcVA' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "name": "Cesar1",
