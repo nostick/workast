@@ -1,0 +1,39 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.js",
+          "**/*.spec.js",
+          "tests/**/*.js",
+          "seeds/**.js"
+        ]
+      }
+    ],
+    "indent": [
+      "error",
+      4
+    ],
+    "jest/valid-describe": "off",
+    "max-len": [
+      "warn",
+      {
+        "code": 180,
+        "ignoreStrings": true
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local"
+      }
+    ],
+    "one-var": "off"
+  }
+}
